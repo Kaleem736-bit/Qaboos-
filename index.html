@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام الاستشارات النفسية عبر الإنترنت</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>نظام الاستشارات النفسية</h1>
+            <p>منصة متكاملة للاستشارات النفسية عن بعد</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#screenshots">لقطات الشاشة</a></li>
+                <li><a href="#technologies">التقنيات المستخدمة</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2>المميزات الرئيسية</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>جلسات فيديو</h3>
+                    <p>نظام جلسات فيديو آمن باستخدام WebRTC للتواصل المباشر بين المريض والطبيب</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>نظام الدردشة</h3>
+                    <p>دردشة نصية في الوقت الحقيقي مع إمكانية إرسال الصور والملفات</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>إدارة المواعيد</h3>
+                    <p>حجز وتعديل المواعيد بسهولة مع إشعارات التذكير</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>الاختبارات النفسية</h3>
+                    <p>مجموعة من الاختبارات النفسية المعتمدة مع تحليل النتائج</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section">
+        <div class="container">
+            <h2>تجربة نظام الدردشة</h2>
+            <div class="chat-demo">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h3>غرفة الدردشة</h3>
+                    </div>
+                    <div class="chat-messages" id="chat-messages">
+                        <!-- الرسائل تظهر هنا عبر الجافاسكربت -->
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="message-input" placeholder="اكتب رسالتك هنا...">
+                        <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="screenshots" class="section">
+        <div class="container">
+            <h2>لقطات من النظام</h2>
+            <div class="screenshots-grid">
+                <img src="assets/chat-screenshot.png" alt="لقطة لنظام الدردشة">
+                <img src="assets/video-screenshot.png" alt="لقطة لنظام الفيديو">
+                <img src="assets/appointment-screenshot.png" alt="لقطة لنظام المواعيد">
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="section">
+        <div class="container">
+            <h2>التقنيات المستخدمة</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+                    <p>Django REST Framework</p>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <p>React.js</p>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webrtc/webrtc-original.svg" alt="WebRTC">
+                    <p>WebRTC</p>
+                </div>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/websocket/websocket-original.svg" alt="WebSocket">
+                    <p>WebSocket</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <p>للأسئلة أو الدعم الفني، يرجى التواصل عبر:</p>
+            <div class="contact-links">
+                <a href="mailto:contact@example.com"><i class="fas fa-envelope"></i> البريد الإلكتروني</a>
+                <a href="https://github.com/yourusername/psychotherapy-system"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <p class="copyright">&copy; 2023 نظام الاستشارات النفسية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+      </html>
